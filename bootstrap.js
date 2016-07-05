@@ -33,7 +33,7 @@ function uninstall(data, reason) {
 }
 
 function addDomains() {
-    console.log("Jidesha: adding our domains to the screen sharing whitelist: " + domains);
+    console.log("ogasha: adding our domains to the screen sharing whitelist: " + domains);
 
     var prefsService = Components.classes["@mozilla.org/preferences-service;1"]
                         .getService(Components.interfaces.nsIPrefService);
@@ -51,7 +51,7 @@ function addDomains() {
 }
 
 function removeDomains() {
-    console.log("Jidesha: removing our domains from the screen sharing whitelist: " + domains);
+    console.log("ogasha: removing our domains from the screen sharing whitelist: " + domains);
 
     var prefsService = Components.classes["@mozilla.org/preferences-service;1"]
                         .getService(Components.interfaces.nsIPrefService);
@@ -68,7 +68,7 @@ function removeDomains() {
             var idx = allowedDomains.indexOf(domain);
             if (idx != -1) {
                 allowedDomains.splice(idx, 1);
-                console.log("Jidesha: removing domain", domain);
+                console.log("ogasha: removing domain", domain);
             }
         }
     });
