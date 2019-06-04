@@ -12,6 +12,7 @@
     <em:homepageURL>https://github.com/jokker23/ogasha/</em:homepageURL>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
+    <em:multiprocessCompatible>
     <!-- Mozilla Firefox -->
     <em:targetApplication>
       <Description>
